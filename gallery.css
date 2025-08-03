@@ -36,6 +36,9 @@ h1{
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image_container img{
@@ -50,4 +53,11 @@ h1{
     transform: scale(1.05);
     padding: 0px;
     transition: transform 0.4s ease-in, padding 0.4s ease-in;
+}
+
+.image_container p{
+    color: #f0f0f0;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-family: sans-serif;
 }
